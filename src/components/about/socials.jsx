@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import {
+	faLinkedinIn,
 	faTwitter,
 	faGithub,
 	faLinkedin,
@@ -16,14 +17,14 @@ const Socials = () => {
 	return (
 		<div className="socials">
 			<div className="social">
-				<a href={INFO.socials.twitter} target="_blank" rel="noreferrer">
+				<a href={INFO.socials.linkedin} target="_blank" rel="noreferrer">
 					<div className="social-icon">
 						<FontAwesomeIcon
-							icon={faTwitter}
+							icon={faLinkedinIn}
 							className="social-icon"
 						/>
 					</div>
-					<div className="social-text">Follow on Twitter</div>
+					<div className="social-text">Follow on Linkedin</div>
 				</a>
 			</div>
 

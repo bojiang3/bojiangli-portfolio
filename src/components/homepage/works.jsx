@@ -28,7 +28,7 @@ const Works = () => {
 
 						<div className="work">
 							<img
-								src="./apple_logo.svg"
+								src="https://banner2.cleanpng.com/20180324/hqq/av07qc566.webp"
 								alt="apple"
 								className="work-image"
 							/>
@@ -50,6 +50,32 @@ const Works = () => {
 								Software Engineer Intern
 							</div>
 							<div className="work-duration">2021</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="https://brand.illinois.edu/wp-content/uploads/2024/02/Color-Variation-Orange-Block-I-White-Background.png"
+								alt="vmware"
+								className="work-image"
+							/>
+							<div className="work-title">UIUC</div>
+							<div className="work-subtitle">
+								Computer Science Teaching Assistant
+							</div>
+							<div className="work-duration">2020</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="https://www.logo.wine/a/logo/Electronic_Arts/Electronic_Arts-Logo.wine.svg"
+								alt="vmware"
+								className="work-image"
+							/>
+							<div className="work-title">EA</div>
+							<div className="work-subtitle">
+								Red Alert2 Map Developer
+							</div>
+							<div className="work-duration">2006 - 2007</div>
 						</div>
 					</div>
 				}

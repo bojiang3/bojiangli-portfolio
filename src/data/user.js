@@ -1,6 +1,6 @@
 const INFO = {
 	main: {
-		title: "Welcome!",
+		title: "Bojiang Li's Portfolio",
 		name: "Bojiang Li",
 		email: "bli314159@gmail.com",
 		logo: "../logo.png",
@@ -8,7 +8,7 @@ const INFO = {
 
 	socials: {
 		twitter: "https://twitter.com/",
-		github: "https://github.com/",
+		github: "https://github.com/bojiang3",
 		linkedin: "https://www.linkedin.com/in/bojiang-li/",
 		instagram: "https://instagram.com/",
 		stackoverflow: "https://stackoverflow.com/",
@@ -16,9 +16,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full-stack web and mobile app developer. Photographer",
+		title: "Software Engineer / Photographer",
 		description:
-			"My name is Bojiang Li. You are welcome to call me Carmelo or Melo. I am a software developer with expertise in Python, Java, Node.js and Swift. I have experience in building scalable, secure and reliable web applications and mobile applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"My name is Bojiang Li, but you are welcome to call me Carmelo or Melo. I am a passionate software developer with extensive experience in creating scalable, secure, and reliable applications. My technical expertise spans across Python, Java, Node.js, and Swift, allowing me to build both robust web applications and innovative mobile solutions using various frameworks and cutting-edge technologies. I take pride in my ability to design and implement solutions that not only meet functional requirements but also prioritize performance and security. Whether I’m developing a backend service with Python and Java or crafting a dynamic user interface with Node.js and Swift, I am committed to delivering high-quality code and innovative products. Feel free to explore my portfolio to see examples of my work and learn more about the projects I’ve contributed to. I look forward to connecting with you and discussing how we can bring creative ideas to life.",
 	},
 
 	about: {
