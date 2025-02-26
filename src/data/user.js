@@ -35,6 +35,15 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Wiki Knowledge Map",
+			description: 
+				"A full-stack web application that provides an interactive knowledge map interface using Wikipedia data and Mapbox maps.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "Wiki Knowledge Map",
+			link: "https://wiki-knowledge-map.vercel.app/",
+			//link: "https://github.com/bojiang3/wiki-knowledge-map",
+		},
+		{
 			title: "Illini-Printer-Map",
 			description:
 				"An Android app visualizing printers' locations at the University of Illinois with new features. Aim to serve 50,000 U of I (UIUC) students and scholars.",
@@ -52,23 +61,7 @@ const INFO = {
 			link: "https://github.com/bojiang3/TransitiOS",
 		},
 
-		{
-			title: "Project 3",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
-
-		{
-			title: "Project 4",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+	
 
 		
 	],
