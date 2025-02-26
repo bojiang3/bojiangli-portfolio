@@ -35,21 +35,21 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Project 1",
+			title: "Illini-Printer-Map",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"An Android app visualizing printers' locations at the University of Illinois with new features. Aim to serve 50,000 U of I (UIUC) students and scholars.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/java/java.png",
+			linkText: "Illini Printer Map (Android)",
+			link: "https://github.com/bojiang3/Illini-Printer-Map",
 		},
 
 		{
-			title: "Project 2",
+			title: "Transit iOS App",
 			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
-			linkText: "View Project",
-			link: "https://github.com",
+				"Transit iOS App, a cutting-edge transportation application developed with Swift, UIKit and Apple MapKit. This app is designed to help drivers navigate through obstacles and improve their overall driving experience.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "Transit iOS",
+			link: "https://github.com/bojiang3/TransitiOS",
 		},
 
 		{
@@ -70,14 +70,7 @@ const INFO = {
 			link: "https://github.com",
 		},
 
-		{
-			title: "Project 5",
-			description:
-				"Lorem ipsum dolor sit amet. Et incidunt voluptatem ex tempore repellendus qui dicta nemo sit deleniti minima.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
-			linkText: "View Project",
-			link: "https://github.com",
-		},
+		
 	],
 };
 
