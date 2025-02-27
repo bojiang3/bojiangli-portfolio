@@ -215,6 +215,149 @@ function article_2() {
   };
 }
 
-const myArticles = [article_1, article_2];
+function privacyPolicy() {
+  return {
+    date: "February 2025",
+    title: "Privacy Policy for Wiki Map App",
+    description: "A standard privacy policy for the Wiki Map App outlining data collection, use, and security practices.",
+    keywords: [
+      "Privacy Policy",
+      "Wiki Map App",
+      "Data Collection",
+      "Security",
+      "Location Data",
+      "Usage Data"
+    ],
+    style: `
+      .privacy-content {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        line-height: 1.6;
+        padding: 20px;
+      }
+      .privacy-header {
+        text-align: center;
+      }
+      .privacy-section {
+        margin-bottom: 20px;
+      }
+      .privacy-section h2 {
+        color: #333;
+      }
+    `,
+    body: (
+      <React.Fragment>
+        <div className="privacy-content">
+          <h1 className="privacy-header">Privacy Policy for Wiki Map App</h1>
+          <p><strong>Last Updated:</strong> February 26, 2025</p>
+          
+          <div className="privacy-section">
+            <h2>1. Introduction</h2>
+            <p>
+              Wiki Map App (“we”, “us”, or “our”) is committed to protecting your privacy.
+              This Privacy Policy explains how we collect, use, disclose, and safeguard your
+              information when you use our application (“App”). By using our App, you agree
+              to the collection and use of information in accordance with this policy.
+            </p>
+          </div>
+
+          <div className="privacy-section">
+            <h2>2. Information Collection</h2>
+            <p>
+              <strong>Personal Information:</strong> We may collect personal data such as your
+              name, email address, or other contact details when you voluntarily provide them.
+            </p>
+            <p>
+              <strong>Usage Data:</strong> Our App automatically collects usage data including device
+              information, IP address, log files, and other technical details to help us improve
+              performance.
+            </p>
+            <p>
+              <strong>Location Data:</strong> With your permission, we may access your device’s
+              location data to enhance map functionality and provide location-based services.
+            </p>
+          </div>
+
+          <div className="privacy-section">
+            <h2>3. Information Usage</h2>
+            <p>
+              We use the collected information to provide and maintain our App, improve your user
+              experience, analyze usage trends, and communicate updates or support information.
+              We do not sell your personal data.
+            </p>
+          </div>
+
+          <div className="privacy-section">
+            <h2>4. Information Sharing and Disclosure</h2>
+            <p>
+              We may share your information with trusted third-party service providers under
+              confidentiality agreements, or as required by law. In the event of a business
+              transaction such as a merger or acquisition, your information may be transferred
+              as part of the transaction.
+            </p>
+          </div>
+
+          <div className="privacy-section">
+            <h2>5. Data Security</h2>
+            <p>
+              We implement reasonable security measures to protect your data from unauthorized
+              access, alteration, or destruction. However, no method of transmission over the
+              internet or electronic storage is completely secure, so we cannot guarantee absolute security.
+            </p>
+          </div>
+
+          <div className="privacy-section">
+            <h2>6. Data Retention</h2>
+            <p>
+              We retain your personal information only as long as necessary to fulfill the purposes
+              outlined in this Privacy Policy or as required by applicable law.
+            </p>
+          </div>
+
+          <div className="privacy-section">
+            <h2>7. Children's Privacy</h2>
+            <p>
+              Our App is not intended for children under the age of 13, and we do not knowingly
+              collect data from children under 13. If you believe we have inadvertently collected
+              such information, please contact us.
+            </p>
+          </div>
+
+          <div className="privacy-section">
+            <h2>8. International Data Transfers</h2>
+            <p>
+              Your information may be transferred to and processed in countries other than your
+              country of residence. By using our App, you consent to such transfers.
+            </p>
+          </div>
+
+          <div className="privacy-section">
+            <h2>9. Changes to This Privacy Policy</h2>
+            <p>
+              We may update this Privacy Policy periodically. Any changes will be posted within
+              the App, and your continued use of the App after changes signifies your acceptance
+              of the updated policy.
+            </p>
+          </div>
+
+          <div className="privacy-section">
+            <h2>10. Contact Us</h2>
+            <p>
+              If you have any questions about this Privacy Policy, please contact us at:
+              <br />
+              Email: <a href="mailto:bli314159@gmail.com">bli314159@gmail.com</a>
+              <br />
+              Address: Malden, MA, USA, 02148
+            </p>
+          </div>
+        </div>
+      </React.Fragment>
+    ),
+  };
+}
+
+
+const myArticles = [article_1, article_2, privacyPolicy];
 
 export default myArticles;
