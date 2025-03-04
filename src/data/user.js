@@ -16,9 +16,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Software Engineer / Photographer",
+		title: "Bojiang (Carmelo) Li: Code, Creativity & Captured Moments",
 		description:
-			"My name is Bojiang Li, but you are welcome to call me Carmelo or Melo. I am a passionate software developer with extensive experience in creating scalable, secure, and reliable applications. My technical expertise spans across Python, Java, Node.js, and Swift, allowing me to build both robust web applications and innovative mobile solutions using various frameworks and cutting-edge technologies. I take pride in my ability to design and implement solutions that not only meet functional requirements but also prioritize performance and security. Whether I’m developing a backend service with Python and Java or crafting a dynamic user interface with Node.js and Swift, I am committed to delivering high-quality code and innovative products. Feel free to explore my portfolio to see examples of my work and learn more about the projects I’ve contributed to. I look forward to connecting with you and discussing how we can bring creative ideas to life.",
+			"I'm Bojiang Li (Carmelo/Melo), a dedicated software engineer with strong SDE coding skills. I develop scalable, secure, and high-performance applications using Python, Java, Node.js, and Swift. I'm also an avid Geoguessr player, passionate geography enthusiast, and photographer specializing in portrait and landscape photography. Explore my portfolio and let’s turn creative ideas into reality.",
 	},
 
 	about: {
@@ -35,7 +35,7 @@ const INFO = {
 
 	projects: [
 		{
-			title: "Wiki Knowledge Map",
+			title: "Wiki Knowledge Map (Web / React)",
 			description: 
 				"A full-stack web application that provides an interactive knowledge map interface using Wikipedia data and Mapbox maps.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
@@ -44,16 +44,41 @@ const INFO = {
 			//link: "https://github.com/bojiang3/wiki-knowledge-map",
 		},
 		{
-			title: "Illini-Printer-Map",
+			title: "Wiki Map iOS App",
+			description: 
+				"Wiki Map is an iOS application that allows you to explore Wikipedia articles around the globe. Whether you’re curious about what’s near your current location or you want to embark on a virtual journey, Wiki Map has you covered. It features modes like World Tour, Quick Explore, and Nearby Entries, making it easy to discover fascinating facts about places around the world.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "Wiki Map iOS App",
+			link: "https://apps.apple.com/us/app/wiki-map-explore-the-world/id6742522164",
+		},
+		{
+			title: "Which Next? iOS App",
+			description: 
+				"Tired of endless debates over where to go? Which Next is here to help! This fun and intuitive app uses your current location to search for nearby spots—whether you're in the mood for a restaurant, a coffee shop, a park, or even a cinema—and then randomly selects a destination for you with a delightful lottery animation.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "Which Next? iOS App",
+			link: "https://apps.apple.com/us/app/whichnext/id6742585561",
+		},
+		{
+			title: "Car Lease Caculator iOS App",
+			description: 
+				"",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "Car Lease Caculator iOS App",
+			link: "https://apps.apple.com/us/app/car-lease-calculator/id6742698622",
+		},
+
+		{
+			title: "Illini Printer Map (Legacy)",
 			description:
-				"An Android app visualizing printers' locations at the University of Illinois with new features. Aim to serve 50,000 U of I (UIUC) students and scholars.",
+				"An Java-based Android app visualizing printers' locations at the University of Illinois with new features. Aim to serve 50,000 U of I (UIUC) students and scholars.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/java/java.png",
 			linkText: "Illini Printer Map (Android)",
 			link: "https://github.com/bojiang3/Illini-Printer-Map",
 		},
 
 		{
-			title: "Transit iOS App",
+			title: "Transit iOS App (Legacy)",
 			description:
 				"Transit iOS App, a cutting-edge transportation application developed with Swift, UIKit and Apple MapKit. This app is designed to help drivers navigate through obstacles and improve their overall driving experience.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",

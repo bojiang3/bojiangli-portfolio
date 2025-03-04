@@ -2,14 +2,14 @@ const SEO = [
 	{
 		page: "home",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+			"I am a software developer with expertise in Python, Java, Node.js (JavaScript) and Swift. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
 		keywords: ["Bojiang Li", "Carmelo Li"],
 	},
 
 	{
 		page: "about",
 		description:
-			"I am a backend developer with expertise in Node.js. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
+			"I am a software developer with expertise in Python, Java, Node.js (JavaScript) and Swift. I have experience in building scalable, secure and reliable web applications using various frameworks and technologies.",
 		keywords: ["Bojiang Li", "Carmelo Li"],
 	},
 
