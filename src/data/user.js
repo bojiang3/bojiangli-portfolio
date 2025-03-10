@@ -35,6 +35,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "Kubernetes Flashcards iOS app",
+			description: 
+				"An iOS app to help you master K8s concepts easily",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
+			linkText: "Apple App Store : Kubernetes Flashcards",
+			link: "https://apps.apple.com/us/app/kubernetes-flashcards/id6742980844/",
+		},
+		{
 			title: "Wiki Knowledge Map (Web / React)",
 			description: 
 				"A full-stack web application that provides an interactive knowledge map interface using Wikipedia data and Mapbox maps.",
@@ -44,27 +52,27 @@ const INFO = {
 			//link: "https://github.com/bojiang3/wiki-knowledge-map",
 		},
 		{
-			title: "Wiki Map iOS App",
+			title: "Wiki Map iOS app",
 			description: 
 				"Wiki Map is an iOS application that allows you to explore Wikipedia articles around the globe. Whether you’re curious about what’s near your current location or you want to embark on a virtual journey, Wiki Map has you covered. It features modes like World Tour, Quick Explore, and Nearby Entries, making it easy to discover fascinating facts about places around the world.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
-			linkText: "Wiki Map iOS App",
+			linkText: "Apple App Store : Wiki Map - Explore the world",
 			link: "https://apps.apple.com/us/app/wiki-map-explore-the-world/id6742522164",
 		},
 		{
-			title: "Which Next? iOS App",
+			title: "Which Next? iOS app",
 			description: 
 				"Tired of endless debates over where to go? Which Next is here to help! This fun and intuitive app uses your current location to search for nearby spots—whether you're in the mood for a restaurant, a coffee shop, a park, or even a cinema—and then randomly selects a destination for you with a delightful lottery animation.",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
-			linkText: "Which Next? iOS App",
+			linkText: "Apple App Store : Which Next?",
 			link: "https://apps.apple.com/us/app/whichnext/id6742585561",
 		},
 		{
-			title: "Car Lease Caculator iOS App",
+			title: "Car Lease Caculator iOS app",
 			description: 
 				"",
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos@0.0.3/src/swift/swift.png",
-			linkText: "Car Lease Caculator iOS App",
+			linkText: "Apple App Store : Car Lease Caculator",
 			link: "https://apps.apple.com/us/app/car-lease-calculator/id6742698622",
 		},
 
