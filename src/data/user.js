@@ -35,6 +35,14 @@ const INFO = {
 
 	projects: [
 		{
+			title: "CSS Complexity Analyzer (Web / React)",
+			description: 
+			"CSS Complexity Analyzer is an advanced web application that helps developers and front-end teams identify, visualize, and resolve CSS complexity issues. The tool analyzes CSS files to detect overly complex selectors, unused rules, and duplicate properties, providing a comprehensive report with actionable insights.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			linkText: "CSS Complexity Analyzer",
+			link: "https://css-complexity-analyzer.vercel.app/",
+		},
+		{
 			title: "Kubernetes Flashcards iOS app",
 			description: 
 				"An iOS app to help you master K8s concepts easily",
@@ -49,7 +57,6 @@ const INFO = {
 			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
 			linkText: "Wiki Knowledge Map",
 			link: "https://wiki-knowledge-map.vercel.app/",
-			//link: "https://github.com/bojiang3/wiki-knowledge-map",
 		},
 		{
 			title: "Wiki Map iOS app",
