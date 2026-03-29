@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #09090b;
+  --foreground: #fafafa;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+}
+
+/* Animated gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+  background-size: 300% 300%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: gradient 8s ease infinite;
+}
+
+@keyframes gradient {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Subtle dot grid background */
+.dot-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Glow card hover effect */
+.card-hover {
+  @apply relative overflow-hidden rounded-xl border border-zinc-800/60 bg-zinc-900/40 transition-all duration-300;
+}
+
+.card-hover::after {
+  content: "";
+  @apply absolute inset-0 opacity-0 transition-opacity duration-300;
+  background: radial-gradient(
+    600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
+    rgba(59, 130, 246, 0.06),
+    transparent 40%
+  );
+}
+
+.card-hover:hover {
+  @apply border-zinc-700/80 bg-zinc-900/60;
+  transform: translateY(-2px);
+}
+
+.card-hover:hover::after {
+  @apply opacity-100;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #3f3f46;
+}
+
+/* Article prose */
+.prose-article {
+  @apply text-zinc-400 leading-relaxed;
+}
+.prose-article h2 {
+  @apply mt-12 mb-4 text-2xl font-bold text-zinc-100;
+}
+.prose-article h3 {
+  @apply mt-8 mb-3 text-xl font-semibold text-zinc-200;
+}
+.prose-article p {
+  @apply mb-4;
+}
+.prose-article ul,
+.prose-article ol {
+  @apply mb-4 ml-6 space-y-2;
+}
+.prose-article ul {
+  @apply list-disc;
+}
+.prose-article ol {
+  @apply list-decimal;
+}
+.prose-article li {
+  @apply text-zinc-400;
+}
+.prose-article code {
+  @apply rounded bg-zinc-800 px-1.5 py-0.5 text-sm text-zinc-300 font-mono;
+}
+.prose-article pre {
+  @apply mb-6 overflow-x-auto rounded-xl border border-zinc-800 bg-zinc-900 p-4 text-sm;
+}
+.prose-article pre code {
+  @apply bg-transparent p-0 text-zinc-300;
+}
+.prose-article strong {
+  @apply text-zinc-200 font-semibold;
+}
