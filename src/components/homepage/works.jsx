@@ -15,6 +15,32 @@ const Works = () => {
 					<div className="works-body">
 						<div className="work">
 							<img
+								src="https://companieslogo.com/img/orig/AMPL_BIG-845de968.png"
+								alt="amplitude"
+								className="work-image"
+							/>
+							<div className="work-title">Amplitude</div>
+							<div className="work-subtitle">
+								Software Engineer 2 / Platform Engineer 2
+							</div>
+							<div className="work-duration">February 2026 - Present</div>
+						</div>
+
+						<div className="work">
+							<img
+								src="https://upload.wikimedia.org/wikipedia/en/4/49/Geotab_Logo.jpg"
+								alt="geotab"
+								className="work-image"
+							/>
+							<div className="work-title">Geotab</div>
+							<div className="work-subtitle">
+								Software Engineer
+							</div>
+							<div className="work-duration">March 2025 - February 2026</div>
+						</div>
+
+						<div className="work">
+							<img
 								src="./fidelity_logo.png"
 								alt="fidelity"
 								className="work-image"
@@ -23,7 +49,7 @@ const Works = () => {
 							<div className="work-subtitle">
 								Software Engineer
 							</div>
-							<div className="work-duration">April 2023 - Present</div>
+							<div className="work-duration">April 2023 - April 2025</div>
 						</div>
 
 						<div className="work">

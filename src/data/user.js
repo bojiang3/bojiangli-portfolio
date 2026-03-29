@@ -22,7 +22,7 @@ const INFO = {
 	},
 
 	about: {
-		title: "I’m Bojiang Li. I live in Boston, MA, US, where I work as a software developer",
+		title: "I’m Bojiang Li. I live in San Francisco, CA, where I work as a platform engineer",
 		description:
 			"I've worked on a variety of projects over the years and I'm proud of the progress I've made. Many of these projects are open-source and available for others to explore and contribute to. If you're interested in any of the projects I've worked on, please feel free to check out the code and suggest any improvements or enhancements you might have in mind. Collaborating with others is a great way to learn and grow, and I'm always open to new ideas and feedback.",
 	},
@@ -34,6 +34,24 @@ const INFO = {
 	},
 
 	projects: [
+		{
+			title: "GMI GPU Cost Optimizer (Hackathon 2026)",
+			description:
+				"An agentic AI system that helps users determine optimal GPU deployment strategies on GMI Cloud. Uses Kimi K2.5 with autonomous tool use to analyze workload requirements, compare deployment modes, and recommend cost-effective GPU configurations. Features multi-step reasoning, cost comparison charts, and infrastructure scaling plans.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "Live Demo",
+			link: "https://gmi-gpu-optimizer.vercel.app",
+		},
+
+		{
+			title: "FluidStack GPU Dashboard (Hackathon 2026)",
+			description:
+				"A real-time GPU monitoring dashboard for FluidStack Blackwell clusters (B200/B100). Distinguishes between LLM inference prefill and decode phases for per-job power tracking. Features 50ms refresh latency, Prometheus export, alert system, and Kubernetes deployment support. Built as a faster alternative to Ray Dashboard.",
+			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/python/python.png",
+			linkText: "GitHub",
+			link: "https://github.com/bojiang3/fluidstack-gpu-dashboard",
+		},
+
 		{
 			title: "CSS Complexity Analyzer (Web / React)",
 			description: 
