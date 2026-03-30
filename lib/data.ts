@@ -174,6 +174,22 @@ export interface Article {
 
 export const articles: Article[] = [
   {
+    slug: "multi-agent-vs-raft",
+    title: "Multi-Agent Coordination vs Raft: Old Consensus Meets New AI",
+    date: "March 2026",
+    description:
+      "A deep dive comparing how multi-agent LLM systems coordinate versus how Raft achieves consensus — surprisingly similar, surprisingly different.",
+    keywords: ["Multi-Agent", "Raft", "LLM", "Distributed Systems"],
+  },
+  {
+    slug: "vibe-coding",
+    title: "Vibe Coding Changed How I Ship Side Projects",
+    date: "March 2026",
+    description:
+      "How AI-assisted 'vibe coding' helped me mass-produce side projects and what I actually learned from the experience.",
+    keywords: ["Vibe Coding", "AI", "Side Projects", "Productivity"],
+  },
+  {
     slug: "raft-consensus",
     title: "Raft Consensus in the World of Distributed Systems",
     date: "May 2021",
