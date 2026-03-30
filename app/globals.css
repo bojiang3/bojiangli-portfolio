@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --background: #09090b;
-  --foreground: #fafafa;
+  --background: #fafaf9;
+  --foreground: #1c1917;
 }
 
 body {
@@ -12,9 +12,9 @@ body {
   color: var(--foreground);
 }
 
-/* Animated gradient text */
+/* Animated gradient text — vivid on light backgrounds */
 .gradient-text {
-  background: linear-gradient(135deg, #3b82f6, #8b5cf6, #ec4899, #3b82f6);
+  background: linear-gradient(135deg, #0ea5e9, #8b5cf6, #f43f5e, #0ea5e9);
   background-size: 300% 300%;
   -webkit-background-clip: text;
   background-clip: text;
@@ -29,13 +29,16 @@ body {
 
 /* Subtle dot grid background */
 .dot-grid {
-  background-image: radial-gradient(rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+  background-image: radial-gradient(rgba(0, 0, 0, 0.06) 1px, transparent 1px);
   background-size: 32px 32px;
 }
 
-/* Glow card hover effect */
+/* Glassmorphism card hover effect */
 .card-hover {
-  @apply relative overflow-hidden rounded-xl border border-zinc-800/60 bg-zinc-900/40 transition-all duration-300;
+  @apply relative overflow-hidden rounded-xl border border-stone-200/70 transition-all duration-300;
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
 }
 
 .card-hover::after {
@@ -43,14 +46,16 @@ body {
   @apply absolute inset-0 opacity-0 transition-opacity duration-300;
   background: radial-gradient(
     600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%),
-    rgba(59, 130, 246, 0.06),
+    rgba(139, 92, 246, 0.06),
     transparent 40%
   );
 }
 
 .card-hover:hover {
-  @apply border-zinc-700/80 bg-zinc-900/60;
+  @apply border-violet-200/80;
+  background: rgba(255, 255, 255, 0.9);
   transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(139, 92, 246, 0.08), 0 2px 8px rgba(0, 0, 0, 0.04);
 }
 
 .card-hover:hover::after {
@@ -65,22 +70,22 @@ body {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: #27272a;
+  background: #d6d3d1;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #3f3f46;
+  background: #a8a29e;
 }
 
 /* Article prose */
 .prose-article {
-  @apply text-zinc-400 leading-relaxed;
+  @apply text-stone-600 leading-relaxed;
 }
 .prose-article h2 {
-  @apply mt-12 mb-4 text-2xl font-bold text-zinc-100;
+  @apply mt-12 mb-4 text-2xl font-bold text-stone-900;
 }
 .prose-article h3 {
-  @apply mt-8 mb-3 text-xl font-semibold text-zinc-200;
+  @apply mt-8 mb-3 text-xl font-semibold text-stone-800;
 }
 .prose-article p {
   @apply mb-4;
@@ -96,17 +101,17 @@ body {
   @apply list-decimal;
 }
 .prose-article li {
-  @apply text-zinc-400;
+  @apply text-stone-600;
 }
 .prose-article code {
-  @apply rounded bg-zinc-800 px-1.5 py-0.5 text-sm text-zinc-300 font-mono;
+  @apply rounded bg-stone-100 px-1.5 py-0.5 text-sm text-violet-700 font-mono;
 }
 .prose-article pre {
-  @apply mb-6 overflow-x-auto rounded-xl border border-zinc-800 bg-zinc-900 p-4 text-sm;
+  @apply mb-6 overflow-x-auto rounded-xl border border-stone-200 bg-stone-50 p-4 text-sm;
 }
 .prose-article pre code {
-  @apply bg-transparent p-0 text-zinc-300;
+  @apply bg-transparent p-0 text-stone-700;
 }
 .prose-article strong {
-  @apply text-zinc-200 font-semibold;
+  @apply text-stone-800 font-semibold;
 }

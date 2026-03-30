@@ -22,29 +22,29 @@ export function ProjectCard({ project, index }: ProjectCardProps) {
     >
       <div className="relative z-10">
         <div className="flex items-center gap-2 flex-wrap">
-          <h3 className="font-semibold text-zinc-100 transition-colors group-hover:text-blue-400">
+          <h3 className="font-semibold text-stone-900 transition-colors group-hover:text-violet-600">
             {project.title}
           </h3>
           {project.hackathon && (
-            <span className="rounded-full bg-violet-500/10 px-2.5 py-0.5 text-[11px] font-medium text-violet-400 ring-1 ring-violet-500/20">
+            <span className="rounded-full bg-violet-500/10 px-2.5 py-0.5 text-[11px] font-medium text-violet-600 ring-1 ring-violet-500/25">
               Hackathon 2026
             </span>
           )}
         </div>
-        <p className="mt-3 text-sm leading-relaxed text-zinc-500 line-clamp-3">
+        <p className="mt-3 text-sm leading-relaxed text-stone-500 line-clamp-3">
           {project.description}
         </p>
         <div className="mt-4 flex flex-wrap gap-1.5">
           {project.tech.map((t) => (
             <span
               key={t}
-              className="rounded-md bg-zinc-800/80 px-2 py-0.5 text-xs text-zinc-400"
+              className="rounded-md bg-stone-100 px-2 py-0.5 text-xs text-stone-500"
             >
               {t}
             </span>
           ))}
         </div>
-        <p className="mt-4 text-sm font-medium text-blue-400 transition-colors group-hover:text-blue-300">
+        <p className="mt-4 text-sm font-medium text-violet-600 transition-colors group-hover:text-violet-500">
           {project.linkText}
           <span className="ml-1 inline-block transition-transform group-hover:translate-x-1">→</span>
         </p>

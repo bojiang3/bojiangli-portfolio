@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <Link
           href="/projects"
-          className="mt-8 inline-flex items-center gap-1 text-sm text-zinc-500 transition-colors hover:text-zinc-300"
+          className="mt-8 inline-flex items-center gap-1 text-sm text-stone-400 transition-colors hover:text-stone-700"
         >
           View all projects
           <span className="transition-transform group-hover:translate-x-1">→</span>
@@ -47,14 +47,14 @@ export default function Home() {
             >
               <div className="relative z-10 flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
                 <div>
-                  <h3 className="font-medium text-zinc-200 transition-colors group-hover:text-blue-400">
+                  <h3 className="font-medium text-stone-800 transition-colors group-hover:text-violet-600">
                     {article.title}
                   </h3>
-                  <p className="mt-1 text-sm text-zinc-500">
+                  <p className="mt-1 text-sm text-stone-500">
                     {article.description}
                   </p>
                 </div>
-                <span className="flex-shrink-0 text-sm text-zinc-600">
+                <span className="flex-shrink-0 text-sm text-stone-400">
                   {article.date}
                 </span>
               </div>

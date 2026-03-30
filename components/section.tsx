@@ -19,9 +19,9 @@ export function Section({ title, subtitle, children, className = "" }: SectionPr
       transition={{ duration: 0.6, ease: "easeOut" }}
       className={`mx-auto max-w-5xl px-6 py-20 ${className}`}
     >
-      <h2 className="text-2xl font-bold text-zinc-100">{title}</h2>
+      <h2 className="text-2xl font-bold text-stone-900">{title}</h2>
       {subtitle && (
-        <p className="mt-2 text-zinc-500">{subtitle}</p>
+        <p className="mt-2 text-stone-500">{subtitle}</p>
       )}
       <div className="mt-10">{children}</div>
     </motion.section>

@@ -32,7 +32,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${inter.variable} ${jetbrainsMono.variable}`}>
-      <body className="min-h-screen bg-zinc-950 font-sans text-zinc-100 antialiased">
+      <body className="min-h-screen bg-stone-50 font-sans text-stone-900 antialiased">
         <div className="dot-grid fixed inset-0 -z-10" />
         <Navbar />
         <main className="pt-16">{children}</main>
